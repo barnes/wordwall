@@ -32,10 +32,14 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Label Maker</title>
+</svelte:head>
+
 <main>
 		{#if showForm}
 			<div class="input">
-				<p>A dead simple way to inputting a simple list of vocab words, and getting a quick and easy to print sheet. Simple select your font, type in your words once per line. PDF output coming soon, but in the mean time, simply click 'toggle form' to see your words in full screen and print directly.</p>
+				<p>A dead simple way to inputting a simple list of words, and getting a quick and easy to print sheet. Use it for labels, vocab words, anything you need. Simply select your font, type in your words once per line. PDF output coming soon, but in the mean time, simply click 'toggle form' to see your words in full screen and print directly.</p>
 				<form class="inputForm">
 					<label for="font">Pick a Font</label>
 					<select bind:value={font} name="font">
