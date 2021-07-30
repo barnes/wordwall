@@ -13,7 +13,7 @@
 
 <style>
     h1 {
-        font-size: 2in;
+        font-size: 1.25in;
         font-family: var(--font);
     }
 </style>
