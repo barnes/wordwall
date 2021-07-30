@@ -1,7 +1,6 @@
 <script>
     export let word;
     export let font;
-    export let size;
 </script>
 
 <svelte:head>
